@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-// github test
+// github test3
 
 int main() {
     char d[9]; //00101110
