@@ -1,14 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+// github test
+
 int main() {
     char d[9]; //00101110
     char p[12];
-    printf("ÇØ¹ÖÄÚµå·Î º¯È¯ ÀÔ·Â\n");
+    printf("ï¿½Ø¹ï¿½ï¿½Úµï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ô·ï¿½\n");
 
     scanf("%s", d);
 
-    printf("ÀÔ·ÂÇÑ µ¥ÀÌÅÍ: %s\n", d);
+    printf("ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: %s\n", d);
 
 
     p[0] = d[0] ^ d[1] ^ d[3] ^ d[4] ^ d[6];
@@ -24,7 +26,7 @@ int main() {
     p[10] = d[6];
     p[11] = d[7];
 
-    printf("ÇØ¹ÖÄÚµå: %c", d[0] ^ d[1] ^ d[3] ^ d[4] ^ d[6]);
+    printf("ï¿½Ø¹ï¿½ï¿½Úµï¿½: %c", d[0] ^ d[1] ^ d[3] ^ d[4] ^ d[6]);
     printf("%c", d[0] ^ d[2] ^ d[3] ^ d[5] ^ d[6]);
     printf("%c", p[2]);
     printf("%d", d[1] ^ d[2] ^ d[3] ^ d[7]);
